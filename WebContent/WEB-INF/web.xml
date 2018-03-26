@@ -24,16 +24,6 @@
 	</servlet-mapping>
 	
 	<servlet>
-		<servlet-name>GetAllNames</servlet-name>
-		<servlet-class>com.getallnames.GetAllNames</servlet-class>
-	</servlet>
-
-	<servlet-mapping>
-		<servlet-name>GetAllNames</servlet-name>
-		<url-pattern>/getallnames</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
 		<servlet-name>UpdatePassword</servlet-name>
 		<servlet-class>com.updatepersoninfo.UpdateServlet</servlet-class>
 	</servlet>
